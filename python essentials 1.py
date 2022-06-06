@@ -67,4 +67,15 @@ print("Here is your list: ", my_list)
 
 my_list.sort()
             
-print("Here is your sorted list: ", my_list)'''  
+print("Here is your sorted list: ", my_list)
+
+
+#creates 2 dimension array consisting of 8 rowas and 8 columns with 64 EMPTY spaces
+
+board = [[EMPTY for i in range(8)] for j in range (8)]]
+
+ #creates a 3 dimensional array for 3 buildings with 15 floors and 20 "not occupied" rooms each
+ 
+ rooms = [[[False for r in range(20)] for f in range(15)] for t in range(3)]
+
+'''  
