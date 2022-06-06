@@ -77,5 +77,60 @@ board = [[EMPTY for i in range(8)] for j in range (8)]]
  #creates a 3 dimensional array for 3 buildings with 15 floors and 20 "not occupied" rooms each
  
  rooms = [[[False for r in range(20)] for f in range(15)] for t in range(3)]
+ 
 
-'''  
+a = 1
+b = 0
+c = a & b
+d = a | b
+e = a ^ b
+print(c + d + e) 
+
+t = [[3 - i for i in range(3)] for j in range(3)]
+s = 0
+for i in range(3):
+    s+= t[i][i]
+print(s)  
+
+for i in range(1):
+    print("#")
+else:
+    print("#") 
+    
+# Functions
+
+def message(number):
+    print("Enter a value: ")
+
+message()
+a = int(input())
+message()
+b = int(input())
+message()
+c = int(input())
+
+print(a + b + c)
+    
+def hello(name):
+    print("Howdy", name)
+    
+name = input("What is your name?  ")
+
+hello(name)
+
+def introduction(first_name, last_name):
+    print("Hi, my name is", first_name, last_name)
+
+introduction("Critters", "Stafford")
+introduction("Eleven", "Hopper")
+introduction("Ada", "Lovelace")
+
+
+def introduction(f_name, l_name):
+    print("Hello, my name is", f_name, l_name)
+
+introduction(f_name = "James", l_name = "Bond")
+introduction(l_name = "Skywalker", f_name = "Luke")
+'''
+    
+    
